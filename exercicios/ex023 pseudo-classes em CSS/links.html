@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(51, 61, 214);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(0, 139, 81);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial::before {
+            content: '✶';
+        }
+
+        .especial::after {
+            content: '✶';
+
+        }
+
+        .especial {
+            background-color: rgb(199, 148, 148);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/Hover.html">Exemplo de Hover</a></li>
+        <li><a href="https://www.youtube.com/channel/UCel-VAIVXORe47DTgcq3WLg" class="especial">Impérios AD</a></li>
+        <li><a href="https://app-sorteos.com/pt">Site de Sorteio</a></li>
+    </ul>
+</body>
+</html>
